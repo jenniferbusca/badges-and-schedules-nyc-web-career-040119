@@ -1,4 +1,4 @@
-arr = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -21,6 +21,7 @@ def assign_rooms(arr)
 end
 
 def printer
+  arr = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badges = batch_badge_creator(arr)
   badges.each {|badge | puts badge}
   

@@ -20,8 +20,7 @@ def assign_rooms(arr)
   return new_arr
 end
 
-def printer
-  arr = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def printer(arr)
   badges = batch_badge_creator(arr)
   badges.each {|badge | puts badge}
   

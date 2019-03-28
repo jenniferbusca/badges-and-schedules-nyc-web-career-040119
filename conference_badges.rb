@@ -20,5 +20,4 @@ end
 
 def printer
   batch_badge_creator.each {|ele | puts ele}
-  puts assign_rooms
 end
